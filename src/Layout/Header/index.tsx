@@ -8,7 +8,7 @@ import Typography from "@mui/material/Typography";
 export function Header() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="static" sx={{ background: "#2C3146" }}>
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Sistema Financeiro
